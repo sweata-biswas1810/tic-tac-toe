@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color:aqua;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.board{
+    
+    height: 70vmin;
+    width: 70vmin;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: white;
+    border-radius: 10px;
+}
+.box{
+    height: 20vmin;
+    width: 20vmin;
+    background-color: transparent;
+    border: pink solid 2px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color:aqua;
+    text-shadow: 0 0 10px aqua;
+    border-radius: 5px;
+    margin: 5px;
+    
+}
+.box:hover{  
+    box-shadow: 0 0 10px pink;
+}
+#newbtn{
+    height: 8vmin;
+    width: 15vmin;
+    font-size: 1rem;
+    background-color: rgb(0, 0, 0);
+    border: aqua 3px solid;
+    font-weight: 550;
+    border-radius: 5px;
+    color: white;
+}
+#newbtn:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px aqua;
+}
+#msg{
+    font-size: 2rem;
+    margin: 10px ;
+}
+.display{
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+#restartbtn{
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: transparent;
+    border: aqua 3px solid;
+    font-weight: 550;
+    border-radius: 5px;
+    color: white;
+    
+}
+#restartbtn:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px aqua;
+
+}
+.hide{
+    display: none;
+}
+p{
+    color: aqua;
+}
+
+.box.bgcolour{
+    box-shadow: 0 0 10px aqua !important;
+    border: aqua solid 2px !important;
+}
